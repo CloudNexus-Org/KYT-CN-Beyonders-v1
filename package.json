@@ -1,0 +1,42 @@
+{
+  "name": "cn-beyonders-employee-directory",
+  "version": "1.0.0",
+  "description": "CN Beyonders Employee Directory - Team Profile Management System",
+  "main": "index.js",
+  "homepage": "https://CloudNexus-Org.github.io/KYT-CN-Beyonders",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite",
+    "serve": "vite preview --port 5174",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d docs"
+  },
+  "keywords": [
+    "employee",
+    "directory",
+    "react",
+    "vite",
+    "cn-beyonders"
+  ],
+  "author": "CN Beyonders Team",
+  "license": "MIT",
+  "dependencies": {
+    "lucide-react": "^0.263.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.2",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.27",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^4.2.2",
+    "vite": "^4.2.0"
+  }
+}
