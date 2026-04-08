@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "CN Beyonders Employee Directory - Team Profile Management System",
   "main": "index.js",
-  "homepage": "https://CloudNexus-Org.github.io/KYT-CN-Beyonders",
+  "homepage": "https://CloudNexus-Org.github.io/KYT-CN-Beyonders-v1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
